@@ -5,12 +5,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>GameListExporter</StartupObject>
+    <StartupObject></StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GameListExporterData\IGDB_ExporterData.csproj" />
     <ProjectReference Include="..\IGDB_DataQuery\IGDB_DataQuery.csproj" />
+    <ProjectReference Include="..\IGDB_ExporterData\IGDB_ExporterData.csproj" />
   </ItemGroup>
 
   <ItemGroup>
